@@ -37,7 +37,7 @@ function sendMessage() {
     }
 }
 
-// Polling function to check for new messages
+// Polling function to check for new messages every 3 seconds
 setInterval(() => {
     displayMessages(); // Update messages every 3 seconds
 }, 3000);
